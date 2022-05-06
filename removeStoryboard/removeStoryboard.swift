@@ -7,7 +7,7 @@
 в файле SceneDelegate в методе scene прописываем следующее:
 */
 
-guard let windowScene = (scene as? windowScene) else { return }
+guard let windowScene = (scene as? UIWindowScene) else { return }
 let window = UIWindow(windowScene: windowScene)
 window.rootViewController = ViewController()
 window.makeKeyAndVisible()
